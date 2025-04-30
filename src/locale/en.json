@@ -1,3 +1,9 @@
 {
-  
+  "navbar": {
+    "trips": "Trips",
+    "services": "Services",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "contact": "Contact Us"
+  }
 }

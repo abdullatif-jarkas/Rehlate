@@ -1,3 +1,9 @@
 {
-  
+  "navbar": {
+    "trips": "الرحلات",
+    "services": "الخدمات",
+    "pricing": "الأسعار",
+    "testimonials": "آراء العملاء",
+    "contact": "اتصل بنا"
+  }
 }
