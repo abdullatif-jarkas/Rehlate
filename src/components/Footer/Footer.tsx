@@ -4,11 +4,7 @@ import Youtube from "./../../assets/youtube.svg";
 import Instagram from "./../../assets/instagram.svg";
 import Facebook from "./../../assets/facebook.svg";
 import { useTranslation } from "react-i18next";
-
-type FooterSection = {
-  title: string;
-  items: string[];
-};
+import { FooterSection } from "../../types/Footer";
 
 export default function Footer() {
   const { t } = useTranslation();
