@@ -1,5 +1,5 @@
 export interface LogoProps {
   src: string;
-  to: string;
-  styles: string;
+  alt: string;
+  styles?: string;
 }

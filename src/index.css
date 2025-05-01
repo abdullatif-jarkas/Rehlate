@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
-*{
+* {
     box-sizing: border-box;
+}
+
+@theme {
+    --color-main-gray: #A5A5A5;
+    --color-main-black: #191919;
+    --color-main-yellow: #FEC430;
+    --color-footer-title: #FFF9EA;
+    --color-footer-text: #797979;
 }
