@@ -1,11 +1,13 @@
 import Hero from "../components/Hero/Hero";
 import Plans from "../components/Plans/Plans";
+import Services from "../components/Services/Services";
 
 export default function Home() {
   return (
     <>
       <main>
         <Hero />
+        <Services />
         <Plans />
       </main>
     </>
