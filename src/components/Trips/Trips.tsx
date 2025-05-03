@@ -11,8 +11,8 @@ export default function Trips() {
             <SectionTitle title={t("trips.title")} text={t("trips.text")}/>
         </div>
         <div className="slider  grid md:h-auto h-[370px] overflow-hidden w-100% pr-[20px] lg:pr-[60px] relative">
-            <div className="flex animate-slide  md:w-[calc(380px*8)] w-[calc(235px*8)]  md:gap-6 gap-5 slide-track">
-                {[ ...cardData, ...cardData ].map((e,i) => (
+            <div className="flex animate-slide  md:w-[calc(380px*12)] w-[calc(235px*12)]  md:gap-6 gap-5 slide-track">
+                {cardData.concat(...cardData , ...cardData).map((e,i) => (
                     <SliderCard
                      key={i}
                      img={e.img}
