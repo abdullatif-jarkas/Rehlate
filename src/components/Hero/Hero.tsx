@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 export default function Hero() {
   const { t } = useTranslation();
   return (
-    <section className="bg-[url(/hero.jpg)] p-5 text-white text-center bg-cover bg-center font-lama flex justify-center items-center h-screen">
+    <section className="bg-[url(/hero.jpg)] overflow-hidden p-5 text-white text-center bg-cover bg-center font-lama flex justify-center items-center h-screen">
         <div className="sm:mt-32 mt-30 flex flex-col justify-center items-center w-max">
           <h1 className="text-shadow lg:text-7xl md:text-6xl text-5xl  font-bold  md:mb-6 mb-4.5">{t("hero.mainTitle")}</h1>
           <p className=" sm:w-2/3 w-11/12 font-lama lg:text-2xl md:text-xl text-lg">{t("hero.subtitle")}</p>
