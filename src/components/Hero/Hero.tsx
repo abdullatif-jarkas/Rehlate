@@ -7,7 +7,7 @@ export default function Hero() {
   const { t } = useTranslation();
   return (
     <div className="bg-[url(/hero.jpg)] p-5 text-white text-center bg-cover bg-center font-lama flex justify-center items-center h-screen">
-        <div className="sm:mt-36 mt-30 flex flex-col justify-center items-center w-max">
+        <div className="sm:mt-32 mt-30 flex flex-col justify-center items-center w-max">
           <h1 className="text-shadow lg:text-7xl md:text-6xl text-5xl  font-bold  md:mb-6 mb-4.5">{t("hero.mainTitle")}</h1>
           <p className=" sm:w-2/3 w-11/12 font-lama lg:text-2xl md:text-xl text-lg">{t("hero.subtitle")}</p>
         <div className="flex animate-shadowPulse mb-10 items-center relative mt-9 rounded-2xl sm:w-[222px] w-[300px] bg-[#FEC430] p-3.5  gap-3 justify-center">
@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
         <img src={img2} className=' sm:-left-24 -left-5 sm:top-12 top-24 absolute ' alt="" />
         </div>
-        <div className=' flex flex-col mt-20'>
+        <div className=' flex flex-col mt-10'>
             <p className=' lg:text-xl text-lg'>{t("hero.Scroll")}</p>
             <img src={img3} alt="mouse" className='sm:w-auto  w-20 ' />
         </div>
