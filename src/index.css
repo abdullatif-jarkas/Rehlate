@@ -1,9 +1,35 @@
 @import "tailwindcss";
 @import url('https://fonts.cdnfonts.com/css/lama-sans');
 
-@theme {
-    --font-lama: "Lama Sans", sans-serif; 
-  }
 *{
     box-sizing: border-box;
+    font-family: var(--font-lama);
 }
+
+@theme {
+    --font-lama: "Lama Sans", sans-serif; 
+
+    --color-main-gray: #A5A5A5;
+    --color-main-black: #191919;
+    --color-main-yellow: #FEC430;
+    --color-footer-title: #FFF9EA;
+    --color-footer-text: #797979;
+}
+
+@layer utilities {
+    @keyframes shadowPulse {
+      0%, 100% {
+        box-shadow: 0 0 2px rgba(85, 84, 84, 0.4);
+      }
+      50% {
+        box-shadow: 0 0 15px rgba(24, 22, 22, 0.4);
+      }
+    }
+  
+    .animate-shadowPulse {
+      animation: shadowPulse 2s ease-in-out infinite;
+    }
+    .delay-bounce-700 {
+        animation-delay: 700ms;
+      }
+  }

@@ -17,10 +17,10 @@ export default function LanguageSelector() {
         <select
             value={language}
             onChange={(e) => setLanguage(e.target.value)}
-            className="bg-transparent text-gray-400 font-medium text-sm border-0"
+            className="bg-transparent text-white focus:outline-0 font-medium flex items-center text-sm border-0"
         >
-            <option value="en">English</option>
-            <option value="ar">العربية</option>
+            <option value="en" className="text-black">English</option>
+            <option value="ar" className="text-black">العربية</option>
         </select>
     );
 }
