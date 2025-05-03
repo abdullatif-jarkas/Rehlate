@@ -23,6 +23,19 @@
      "Riyadh" : "Riyadh",
      "days" : "days at "
   },
+  "Services" :
+  {
+    "title"  :"A collection of our services" ,
+    "text" : "Have fun on your trip",
+    "data" : {
+      "title" : "Tourist guide",
+      "title2" : "Tourist guide",
+      "title3" : "Tourist guide",
+      "text" :"We offer you tour guide services to build unique travel plans.",
+      "text2" :"Don't worry about where to stay, we take care of all your bookings.",
+      "text3" :"Your vacation will not be boring with us, as there are many different plans and trips."
+    }
+  },
   "plansSection": {
     "title": "Plans that suit your budget",
     "subtitle": "Don’t worry about the cost",

@@ -6,19 +6,19 @@ import Arrow from "./../assets/arrow.svg";
 export const servicesData = [
   {
     image: Img1,
-    title: "دليل سياحي",
-    text: "نقدم لك خدمات الإرشاد السياحي لبناء خطط سفر مميزة.",
+    title: "Services.data.title",
+    text : "Services.data.text",
     arrow: <img src={Arrow} alt="arrow" className="lg:hidden absolute -top-[100px] -left-0" />,
   },
   {
     image: Img2,
-    title: "حجوزات فندقية",
-    text: "لا تقلق حول مكان إقامتك فنحن نهتم بكامل الحجوزات الخاصة بك.",
+    title: "Services.data.title2",
+    text : "Services.data.text2",
     arrow: <img src={Arrow} alt="arrow" className="hidden lg:block absolute -top-[100px] -left-0" />,
   },
   {
     image: Img3,
-    title: "رحلات ميدانية",
-    text: "لن تكون إجازتك مملة معنا فهنا الكثير من الخطط والرحلات المختلفة.",
+    title: "Services.data.title3",
+    text : "Services.data.text3",
   },
 ];
