@@ -4,7 +4,7 @@ import ServiceCard from "../ui/ServiceCard/ServiceCard";
 
 export default function Services() {
   return (
-    <div className="services my-[120px] px-[20px] lg:px-[60px]">
+    <div className="services md:my-[120px] my-[70px] px-[20px] lg:px-[60px]">
       <SectionTitle
         title="مجموعة من خدماتنا"
         text="تمتع في رحلتك"

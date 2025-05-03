@@ -14,6 +14,7 @@
     --color-main-yellow: #FEC430;
     --color-footer-title: #FFF9EA;
     --color-footer-text: #797979;
+
 }
 
 @layer utilities {
@@ -25,11 +26,16 @@
         box-shadow: 0 0 15px rgba(24, 22, 22, 0.4);
       }
     }
-  
     .animate-shadowPulse {
       animation: shadowPulse 2s ease-in-out infinite;
     }
-    .delay-bounce-700 {
-        animation-delay: 700ms;
-      }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(calc(380px * 4)); }
+    }
+  
+    .animate-slide {
+      animation: slide 40s linear infinite;
+    }
+
   }
