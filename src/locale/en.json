@@ -6,6 +6,11 @@
     "testimonials": "Testimonials",
     "contact": "Contact Us"
   },
+  "hero" :{
+     "mainTitle": "Travel with us to the world",
+     "subtitle" : "We provide you with the best trips you need to all countries, with services tailored for you and your family.",
+     "Scroll" : "Scroll Down"
+  }, 
   "plansSection": {
     "title": "Plans that suit your budget",
     "subtitle": "Don’t worry about the cost",

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { navbarData } from "../../data/Navbar";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import Sidebar from "../Sidebar/Sidebar";
@@ -9,8 +9,17 @@ import Logo from "../ui/Logo/Logo";
 
 export default function Navbar() {
   const [open, setOpen] = useState<boolean>(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <nav className="flex h-[60px] items-center justify-between bg-[#6a5aad] px-[60px] text-white">
+    <nav className={`flex  items-center justify-between  fixed w-full sm:px-[60px] px-5  z-50 text-white
+                    ${isScrolled ? 'bg-main-black  py-5' : 'h-[60px] bg-transparent mt-5 '}`}>
       <Logo src={LogoImage} alt="logo" styles="h-[30px]" />
       <NavMenu data={navbarData} />
       <div className="hidden lg:block">

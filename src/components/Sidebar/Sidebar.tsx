@@ -9,7 +9,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 bottom-0 ${open ? "translate-x-0" : "-translate-x-full"} items-center transition duration-500 flex flex-col justify-center gap-7 bg-[#6a5aad] px-4 lg:hidden`}
+      className={`fixed top-0 left-0 right-0 bottom-0 ${open ? "translate-x-0" : "-translate-x-full"} items-center transition duration-500 flex flex-col justify-center gap-7 bg-main-black px-4 lg:hidden`}
     >
       <ul className="flex flex-col items-center gap-7 text-left">
         {navbarData.map((link, index) => (
