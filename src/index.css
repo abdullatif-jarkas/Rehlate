@@ -33,9 +33,20 @@
       0% { transform: translateX(0); }
       100% { transform: translateX(calc(380px * 4)); }
     }
+    @keyframes slideEn {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(calc(-380px * 4)); }
+    }
+    @keyframes slide-sm {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(calc(235px * 4)); }
+    }
   
     .animate-slide {
       animation: slide 50s linear infinite;
+    }
+    .animate-slideEn {
+      animation: slideEn 50s linear infinite;
     }
 
   }
