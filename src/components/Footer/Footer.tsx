@@ -50,9 +50,9 @@ export default function Footer() {
           })}
         </p>
         <div className="icons flex items-center gap-4 pt-7 pb-11 lg:py-[17px]">
-          <img className="cursor-pointer" src={Youtube} alt="youtube" />
-          <img className="cursor-pointer" src={Instagram} alt="instagram" />
-          <img className="cursor-pointer" src={Facebook} alt="facebook" />
+          <img className="cursor-pointer" src={Youtube} alt="youtube" loading="lazy" />
+          <img className="cursor-pointer" src={Instagram} alt="instagram" loading="lazy" />
+          <img className="cursor-pointer" src={Facebook} alt="facebook" loading="lazy" />
         </div>
       </div>
     </footer>

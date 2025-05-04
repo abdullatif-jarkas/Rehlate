@@ -29,7 +29,7 @@ export default function Navbar() {
         className="menu cursor-pointer rounded-md bg-white p-2 lg:hidden"
         onClick={() => setOpen(true)}
       >
-        <img src={MenuIcon} alt="menu icon" />
+        <img src={MenuIcon} alt="menu icon" loading="lazy" />
       </div>
       <Sidebar setOpen={setOpen} open={open} />
     </nav>

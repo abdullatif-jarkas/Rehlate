@@ -23,7 +23,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
         className="menu cursor-pointer rounded-md bg-white p-2 lg:hidden"
         onClick={() => setOpen(false)}
       >
-        <img src={CloseIcon} alt="menu icon" />
+        <img src={CloseIcon} alt="menu icon" loading="lazy" />
       </div>
     </div>
   );

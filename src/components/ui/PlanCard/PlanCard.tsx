@@ -23,7 +23,7 @@ export default function PlanCard({
       <ul className="flex flex-col gap-[20px]">
         {menu.map((item, index) => (
           <li key={index} className="flex items-center gap-2">
-            <img src={CheckIcon} alt="check icon" />
+            <img src={CheckIcon} alt="check icon" loading="lazy" />
             <p className="text-lg font-semibold">{t(item)}</p>
           </li>
         ))}
@@ -32,7 +32,7 @@ export default function PlanCard({
         className={`${buttonStyles} mt-[76px] flex items-center justify-center gap-3 rounded-[15px] py-3 text-lg font-bold`}
       >
         <p>{t("plansSection.bookNow")}</p>
-        <img src={ButtonArrow} alt="button arrow" />
+        <img src={ButtonArrow} alt="button arrow" loading="lazy" />
       </div>
     </div>
   );
